@@ -2,6 +2,7 @@ from django.contrib import admin
 from .models import Product, Category
 
 
+# extend the built in model admin class
 class ProductAdmin(admin.ModelAdmin):
     list_display = (
         'sku',
@@ -15,6 +16,7 @@ class ProductAdmin(admin.ModelAdmin):
     ordering = ('sku',)
 
 
+# extend the built in model admin class
 class CategoryAdmin(admin.ModelAdmin):
     list_display = (
         'friendly_name',
