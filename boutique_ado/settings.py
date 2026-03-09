@@ -48,7 +48,7 @@ INSTALLED_APPS = [
     'checkout',
 
     # other
-    'cripsy_forms',
+    'crispy_forms',
 
 ]
 
